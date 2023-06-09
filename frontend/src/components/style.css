@@ -1,0 +1,120 @@
+.note {
+    position: relative;
+  }
+  
+  .delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .delete svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .delete:hover::before {
+    content: "Delete";
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .delete:hover {
+    color: rgb(28, 9, 9);
+  }
+  
+  .update {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .update svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .update:hover::before {
+    content: "Update";
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .update:hover {
+    color: rgb(18, 18, 37);
+  }
+
+  .note {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .note .extend {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .note .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .note .delete,
+  .note .update {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .note .delete:hover {
+    color: #474747;
+  }
+  
+  .note .delete:focus,
+  .note .update:focus {
+    outline: none;
+  }
+  
+  .note .sr-only {
+    position: absolute;
+    left: -9999px;
+  }
+  

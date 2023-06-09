@@ -1,0 +1,15 @@
+.custom-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    /* Add your desired styles to indicate that the button is disabled */
+    background-color: #ccc;
+    color: #666;
+    /* Add any other styles you want */
+  }
+  
+  .custom-button:disabled:hover {
+    /* Add your desired styles for the disabled button on hover */
+    /* For example, you can change the background color */
+    background-color: #ccc;
+  }
+  
