@@ -9,7 +9,6 @@ The Note Taking App is a web application that allows users to create, update, an
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
