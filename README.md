@@ -37,20 +37,18 @@ The project uses the following technologies:
 
 ## Installation
 
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone https://github.com/bereketsintayehu/note-app`
 2. Install the dependencies:
+   - For the backend, run `npm install` 
    - For the frontend, navigate to the `frontend` directory and run `npm install`
-   - For the backend, navigate to the `backend` directory and run `npm install`
 
 ## Usage
 
 1. Start the backend server:
-   - Navigate to the `backend` directory
    - Run `npm start`
 2. Start the frontend application:
    - Navigate to the `frontend` directory
    - Run `npm start`
-3. Open your web browser and access the application at `http://localhost:3000`
 
 ## API Endpoints
 
